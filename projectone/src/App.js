@@ -6,11 +6,17 @@ import Footer from "./components/Footer";
 import Contact from "./components/Contact";
 
 
+
 import "./styles/App.scss";
 import "./styles/header.scss"; 
 import"./styles/home.scss"; 
 import"./styles/footer.scss"; 
-import"./styles/Contact.scss"; 
+import"./styles/Contact.scss";
+import"./styles/mediaquery.scss";
+
+
+
+
 
 
 function App() {
@@ -20,8 +26,8 @@ function App() {
           <Header />
           <Routes>
             <Route path="/" element={<Home />} />
-            <Route path="/contact" element={<contact />} />
-
+            <Route path="/contact" element={<Contact />} />
+.
           
           </Routes>
           <Footer/>

@@ -9,14 +9,14 @@ const Header = () => {
     <main>
 
         <HashLink to={"/#home"}>Home</HashLink>
-        <HashLink to={"/contact"}>Contact</HashLink>
+        <Link to={"/contact"}>Contact</Link>
         <HashLink to={"/#about"}>About</HashLink>
         <HashLink to={"/#brands"}>Brands</HashLink>
-        <HashLink to={"/services"}>Services</HashLink>
+        <Link to={"/services"}>Services</Link>
     </main>
   </nav> 
   );
   
 };
 
-export default Header;
+export default Header

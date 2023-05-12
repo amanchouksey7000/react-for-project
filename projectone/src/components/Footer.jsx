@@ -10,9 +10,9 @@ const Footer = () => {
         <h5>
             Follow Us
             <div>
-                <a href="https://youtube.com/6packprogrammer" target={"_blank"}>Youtube</a>
-                <a href="https://instagram.com/meabhsingh" target={"_blank"}>Instagram</a>
-                <a href="https://github.meabhsingh" target={"_blank"}>Github</a>
+                <a href="https://youtube.com/6packprogrammer" target={"blank"}>Youtube</a>
+                <a href="https://instagram.com/meabhsingh" target={"blank"}>Instagram</a>
+                <a href="https://github.meabhsingh" target={"blank"}>Github</a>
 
             </div>
         </h5>
