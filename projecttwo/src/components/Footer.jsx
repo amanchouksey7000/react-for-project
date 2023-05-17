@@ -1,6 +1,6 @@
 import { Box, Stack, VStack,Heading, HStack,Input,Text,Button } from '@chakra-ui/react'
-import React from 'react'
-import { AiOutlineSend } from "react-icons/ai"
+import React from 'react';
+import { FiSend} from "react-icons/fi";
 
 const Footer = () => {
   return  (
@@ -32,7 +32,7 @@ const Footer = () => {
                  variant={'ghost'}
                  borderRadius={'0 20px 20px 0'}
                  >
-                    <AiOutlineSend size={20}/>
+                    <FiSend size={20}/>
                  </button>
                  </HStack>
           </VStack>
